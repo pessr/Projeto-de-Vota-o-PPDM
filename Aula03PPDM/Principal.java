@@ -13,6 +13,7 @@ public class Principal {
             System.out.println("1. Criar Partido");
             System.out.println("2. Criar Candidato");
             System.out.println("3. Votar");
+            System.out.println("4. Exibir Resultados: ");
             System.out.println("5. Sair");
             System.out.println("Digite uma Opção: ");
             int opcao = scanner.nextInt();
