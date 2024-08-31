@@ -8,7 +8,7 @@ public class Principal {
         Sistema sistema = new Sistema();
         boolean loop = true;
 
-        while (true){
+        while (loop){
             System.out.println("Menu: ");
             System.out.println("1. Criar Partido");
             System.out.println("2. Criar Candidato");
@@ -57,6 +57,7 @@ public class Principal {
                     System.out.println("Saindo ...");
                     scanner.close();
                     loop = false;
+                    break;
                 default:
                     System.out.println("Opção invalida. Tente novamente.");
                 }
